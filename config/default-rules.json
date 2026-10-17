@@ -1,0 +1,56 @@
+[
+  {
+    "id": "rock",
+    "name": "Rock & Alternative",
+    "description": "Rock, hard rock, alternative, grunge, and indie rock",
+    "genres": ["rock", "grunge", "punk", "alternative rock", "indie rock", "hard rock", "classic rock", "post-punk"]
+  },
+  {
+    "id": "metal",
+    "name": "Metal & Heavy",
+    "description": "Heavy metal, thrash, death metal, metalcore, nu-metal",
+    "genres": ["metal", "heavy metal", "death metal", "thrash metal", "metalcore", "nu metal", "doom metal", "black metal"]
+  },
+  {
+    "id": "hip-hop",
+    "name": "Hip-Hop & Rap",
+    "description": "Hip hop, rap, trap, and R&B",
+    "genres": ["hip hop", "rap", "trap", "r&b", "underground hip hop", "boom bap", "drill"]
+  },
+  {
+    "id": "electronic",
+    "name": "Electronic & Dance",
+    "description": "EDM, house, techno, drum and bass, ambient, synthwave, trance",
+    "genres": ["electronic", "house", "techno", "drum and bass", "dnb", "synthwave", "trance", "dubstep", "electro", "edm", "idm"]
+  },
+  {
+    "id": "indie-folk",
+    "name": "Indie & Folk",
+    "description": "Indie, acoustic, singer-songwriter, folk",
+    "genres": ["indie", "indie pop", "indie folk", "folk", "singer-songwriter", "acoustic", "bedroom pop"]
+  },
+  {
+    "id": "pop",
+    "name": "Pop Hits",
+    "description": "Pop, dance pop, electropop",
+    "genres": ["pop", "dance pop", "electropop", "synthpop"]
+  },
+  {
+    "id": "jazz-blues",
+    "name": "Jazz & Soul & Blues",
+    "description": "Jazz, soul, funk, and blues",
+    "genres": ["jazz", "soul", "blues", "funk", "neo-soul", "bossa nova"]
+  },
+  {
+    "id": "ambient-chill",
+    "name": "Ambient & Chill",
+    "description": "Ambient, lo-fi, chillhop, neoclassical, downtempo",
+    "genres": ["ambient", "lo-fi", "chillhop", "downtempo", "chillout", "sleep", "neoclassical", "drone"]
+  },
+  {
+    "id": "ukrainian",
+    "name": "Ukrainian Music",
+    "description": "Ukrainian artists and tracks",
+    "genres": ["ukrainian", "ukrainian pop", "ukrainian rock", "ukrainian indie", "ukrainian electronic", "ukrainian folk"]
+  }
+]

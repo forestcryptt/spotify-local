@@ -1,0 +1,43 @@
+{
+  "name": "spotify-local",
+  "version": "1.0.0",
+  "description": "TypeScript CLI tool for parsing Spotify library and sorting music into playlists by genre, decade, artist, and custom rules",
+  "main": "dist/index.js",
+  "type": "module",
+  "bin": {
+    "spotify-local": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "tsx src/index.ts",
+    "dev": "tsx watch src/index.ts",
+    "login": "tsx src/index.ts login",
+    "fetch": "tsx src/index.ts fetch",
+    "sort": "tsx src/index.ts sort",
+    "sync": "tsx src/index.ts sync",
+    "export": "tsx src/index.ts export",
+    "status": "tsx src/index.ts status"
+  },
+  "keywords": [
+    "spotify",
+    "music",
+    "playlists",
+    "sorter",
+    "parser",
+    "typescript"
+  ],
+  "author": "forestcryptt",
+  "license": "MIT",
+  "dependencies": {
+    "cli-table3": "^0.6.5",
+    "commander": "^12.1.0",
+    "dotenv": "^16.4.5",
+    "open": "^10.1.0",
+    "picocolors": "^1.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.5",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.3"
+  }
+}
